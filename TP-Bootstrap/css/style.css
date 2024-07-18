@@ -1,0 +1,219 @@
+#contact-boot #bouton-envoyer {
+    background-color: #6362f0;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+        button {
+            color: white;
+            font-size: 1.4vw;
+            font-weight: bold;
+        }
+}
+
+/* ---------------GALERIE--------------- */
+
+.all-card .crayon-personna {
+    background-color: #eedaed;
+    height: 50vw;
+    margin-bottom: 20vw;
+        h3 {
+            text-align: center;
+            padding-top: 2vw;
+            font-size: 2vw;
+        }
+}
+
+.all-card .portrait {
+    background-color: #dcdaee;
+    height: 50vw;
+    margin-bottom: 20vw;
+        h3 {
+            text-align: center;
+            padding-top: 2vw;
+            font-size: 2vw;
+        }
+}
+
+.all-card .peinture {
+    background-color: #eedae2;
+    height: 50vw;
+    margin-bottom: 20vw;
+        h3 {
+            text-align: center;
+            padding-top: 2vw;
+            font-size: 2vw;
+        }
+}
+
+.all-card .illustration {
+    background-color: #dae5ee;
+    height: 160vw;
+    margin-bottom: 20vw;
+        h3 {
+            text-align: center;
+            padding-top: 2vw;
+            font-size: 2vw;
+        }
+}
+
+.all-card #all-crayon, #all-portrait, #all-peinture {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.crayon-personna .card {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 22vw;
+}
+
+.portrait .card {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 22vw;
+}
+
+.peinture .card {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 20vw;
+}
+
+.illustration .card {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 18vw;
+}
+
+.card .card-body {
+    width: 9vw;
+    height: 4vw;
+    border-radius: 20px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c5a8f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        h5 {
+            font-size: 1.4vw;
+        }
+}
+
+.card .card-body:hover {
+    background-color: #370a80;
+    color: azure;
+}
+
+.card img:hover {
+    transform: scale(1.6);
+}
+ 
+.portrait #all-portrait .espace {
+    height: 4.5vw;
+        p {
+            color: white;
+        }
+}
+
+.portrait #all-portrait .espace2 {
+    height: 4.3vw;
+        p {
+            color: white;
+        }
+}
+
+.portrait #all-portrait .card:not(:nth-child(1)) img {
+    padding-bottom: 2vw;
+}
+
+#all-peinture {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.peinture #all-peinture .card #peinture-2 {
+    padding: 2vw;
+    padding-top: 3vw;
+}
+
+
+
+.all-card #all-illustration {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.illustration .card {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 18vw;
+}
+
+.illustration .card .card-body {
+    width: 8vw;
+    height: 3.8vw;
+    border-radius: 20px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c5a8f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        h5 {
+            font-size: 1.4vw;
+        }
+}
+
+.illustration .card .card-body:hover {
+    background-color: #370a80;
+    color: azure;
+}
+
+.illustration .card img:hover {
+    transform: scale(1.6);
+}
+
+@media screen and (max-width: 1400px) {
+    .all-card .crayon-personna .card:nth-child(4) .card-body {
+        width: 12vw;
+    }
+
+    .all-card .illustration .illustration-etage-1 .card:nth-child(2) .card-body {
+        width: 12vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .all-card .crayon-personna .card {
+        width: 20vw;
+        flex-wrap: wrap;
+    }
+    .all-card .portrait .card {
+        width: 100vw;
+    }
+    .all-card .peinture .card {
+        width: 100vw;
+    }
+    .all-card .illustration .card {
+        width: 100vw;
+    }
+}
